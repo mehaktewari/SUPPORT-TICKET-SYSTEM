@@ -130,6 +130,5 @@ docker-compose up --build
 
 🔗 LinkedIn: [https://www.linkedin.com/in/mehak-tewari-04934b247/](https://www.linkedin.com/in/mehak-tewari-04934b247/)
 
-````
 
 
