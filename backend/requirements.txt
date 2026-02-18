@@ -4,3 +4,4 @@ django-filter
 psycopg2-binary
 openai
 python-dotenv
+django-cors-headers
