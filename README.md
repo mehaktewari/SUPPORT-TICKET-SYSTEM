@@ -67,13 +67,17 @@ The API key is securely managed using environment variables and is not hardcoded
 - Docker
 - Docker Compose
 
-### Steps to Run
-1. Set the OpenAI API key (optional but recommended):
+## Steps to Run
 
-   **Windows (PowerShell)**
-   ```powershell
-   setx OPENAI_API_KEY "your_api_key_here"
+### 1. Set the OpenAI API key (optional but recommended)
+
+**Windows (PowerShell)**
+
+```powershell
+setx OPENAI_API_KEY "your_api_key_here"
 ````
+
+> Restart the terminal after setting the key.
 
 **Mac / Linux**
 
@@ -81,46 +85,50 @@ The API key is securely managed using environment variables and is not hardcoded
 export OPENAI_API_KEY="your_api_key_here"
 ```
 
-2. Run the application:
+---
 
-   ```bash
-   docker-compose up --build
-   ```
+### 2. Run the application
 
-3. Access the application:
+```bash
+docker-compose up --build
+```
 
-   * Frontend: [http://localhost:3000](http://localhost:3000)
-   * Backend API: [http://localhost:8000/api/](http://localhost:8000/api/)
+> The first run may take a few minutes as Docker builds the images.
+
+---
+
+### 3. Access the application
+
+* **Frontend:** [http://localhost:3000](http://localhost:3000)
+* **Backend API:** [http://localhost:8000/api/](http://localhost:8000/api/)
 
 ---
 
 ## Design Decisions
 
-* Database-level constraints enforced in Django models
+* Database-level constraints enforced directly in Django models
 * ORM-based aggregation for statistics instead of Python loops
-* Graceful handling of LLM failures
+* Graceful handling of LLM failures to ensure ticket submission always works
 * Minimal but functional UI to focus on core requirements
-* Clear separation of backend, frontend, and infrastructure
+* Clear separation of backend, frontend, and infrastructure layers
 
 ---
 
 ## Notes
 
 * The `.git` directory is included to demonstrate incremental development
-* No secrets or API keys are committed
+* No secrets or API keys are committed to the repository
 * The application runs fully with a single Docker command
 
 ---
 
 ## Author
 
-**MEHAK TEWARI**
+**Mehak Tewari**
 📧 Email: [tewarimehak2107@gmail.com](mailto:tewarimehak2107@gmail.com)
-🔗 LinkedIn: [mehak-tewari](https://www.linkedin.com/in/mehak-tewari-04934b247/)
+🔗 LinkedIn: [https://www.linkedin.com/in/mehak-tewari-04934b247/](https://www.linkedin.com/in/mehak-tewari-04934b247/)
 
 ````
 
 ---
-
-
 
