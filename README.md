@@ -125,10 +125,11 @@ docker-compose up --build
 ## Author
 
 **Mehak Tewari**
+
 📧 Email: [tewarimehak2107@gmail.com](mailto:tewarimehak2107@gmail.com)
+
 🔗 LinkedIn: [https://www.linkedin.com/in/mehak-tewari-04934b247/](https://www.linkedin.com/in/mehak-tewari-04934b247/)
 
 ````
 
----
 
